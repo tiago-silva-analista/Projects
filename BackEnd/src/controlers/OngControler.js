@@ -7,7 +7,9 @@ module.exports = {async index (request,response){
          return response.json(ongs);
     }    
     ,async create (request,response){
+        console.log(request.body);
         const {name, email, whatsapp,city,uf } = request.body;
+        console.log(request.body);
         const id = crypto.randomBytes(4).toString('HEX');
 
         await connection('ongs').insert({
@@ -16,7 +18,7 @@ module.exports = {async index (request,response){
             email,
             whatsapp,
             city,
-            uf,
+            uf
         })
 
     
