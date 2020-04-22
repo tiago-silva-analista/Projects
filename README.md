@@ -10,9 +10,7 @@ The final result will be an app to connect people with ONGS to perform donations
 
 ## Structure
 
-```mermaid
-graph LR
-A[ User]  --> B((Mobile App))
-A --> C(Web Portal)
-B -- React Native --> D{Node JS: BackEnd}
-C -- React JS --> D
+Examplifying the react and react native diferences:
+
+![react-native-vs-react-js](https://user-images.githubusercontent.com/62657321/79994219-0dcc4480-848c-11ea-9470-423279b7b820.jpg)
+
