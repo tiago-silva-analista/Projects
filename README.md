@@ -1,4 +1,4 @@
-[![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5)
+![CircleCI](https://circleci.com/gh/circleci/circleci-docs/tree/teesloane-patch-5.svg?style=svg)
 
 # Welcome to "Be the Hero" Project! 
 The project name is based as a opportunity that the user has to be a hero for someone performing a donation to help some animal that needs to be treated.
